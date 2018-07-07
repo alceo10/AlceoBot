@@ -9,7 +9,7 @@ loop = asyncio.new_event_loop()
 
 asyncio.set_event_loop(asyncio.new_event_loop())
 
-chat_filter = ["NIGGER", "BLACK", "MIGUEL","!APA", "ATUM"]
+chat_filter = ["NIGGER", "BLACK", "MIGUEL", "ATUM"]
 bypass_list = ['98809268219699200']
 Nazi_Member = ['98468200508833792']
 
@@ -31,6 +31,10 @@ async def on_message(message):
     if message.content == ".trivia":
         await client.send_message(message.channel, "```glsl\n# TRIVIA TIMETABLE \n \nCash Show US - 01:00 - 02:30 \nCash Show AU - 12:00 \nCash Show UK - 20:30 \nCash Show DE - 11:00 - 20:00 \nCash Show FR - 11:30 - 19:30 \n\nHQ UK - 15:00 - 21:00 \nHQ US - 01:00 - 02:00```")
         await client.send_message(message.channel, "For more: https://triviatrckr.io/")
+    if message.content == "!apa":
+        await client.send_message(message.channel, "Nice to see you again Apa! :PAPAFACE:")
+    if message.author.id == '98468200508833792'
+        await client.send_message(message.channel, ":NAZIFLAGARONY:")
     contents = message.content.split(" ") #contents is a list type
     for word in contents:
         if word.upper() in chat_filter:
