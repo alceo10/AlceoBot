@@ -1,1 +1,1 @@
-worker: python Alceo bot.py
+worker: python alceo_bot.py
