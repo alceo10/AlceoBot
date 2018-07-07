@@ -33,10 +33,10 @@ async def on_message(message):
         await client.send_message(message.channel, "For more: https://triviatrckr.io/")
     if message.content == "!apa":
         await client.send_message(message.channel, "Nice to see you again Apa! :PAPAFACE:")
-    if message.author.id == '98468200508833792':
-        await client.send_message(message.channel, ":NAZIFLAGARONY:")
     if message.author.id == '128962977456979968':
-        await client.send_message(message.channel, "Aiii Xicoo :$")    
+        await client.send_message(message.channel, "Aiii Xicoo <:Succ:464183613462937601>") 
+    if message.author.id == '339055386067861504':
+        await client.send_message(message.channel, "<:PAPAFACE:464188803515416577>")     
     contents = message.content.split(" ") #contents is a list type
     for word in contents:
         if word.upper() in chat_filter:
