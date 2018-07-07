@@ -29,7 +29,7 @@ async def on_message(message):
     if message.content == ".help":
         await client.send_message(message.channel, "```fix\nOlá o meu nome é Alceo e eu sirvo para avisar a malta dos horários do Trivia e para não dizerem palavras marotas com N1GGER N1GGER N1GGER. \nSe escrevers 'Xico' no chat podes ter uma surpresa! :3 \n \nCurrent Commands -> .trivia .help```")
     if message.content == ".trivia":
-        await client.send_message(message.channel, "```glsl\n# TRIVIA TIMETABLE \n \nCash Show US - 01:00 - 02:30 \nCash Show AU - 12:00 \nCash Show UK - 20:30 \nCash Show DE - 11:00 - 20:00 \n \nHQ UK - 15:00 - 21:00 \nHQ US - 01:00 - 02:00```")
+        await client.send_message(message.channel, "```glsl\n# TRIVIA TIMETABLE \n \nCash Show US - 01:00 - 02:30 \nCash Show AU - 12:00 \nCash Show UK - 20:30 \nCash Show DE - 11:00 - 20:00 \nCash Show FR - 11:30 - 19:30 \n\nHQ UK - 15:00 - 21:00 \nHQ US - 01:00 - 02:00```")
         await client.send_message(message.channel, "For more: https://triviatrckr.io/")
     contents = message.content.split(" ") #contents is a list type
     for word in contents:
