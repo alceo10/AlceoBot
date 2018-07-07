@@ -9,7 +9,7 @@ loop = asyncio.new_event_loop()
 
 asyncio.set_event_loop(asyncio.new_event_loop())
 
-chat_filter = ["NIGGER", "BLACK", "MIGUEL"]
+chat_filter = ["NIGGER", "BLACK", "MIGUEL","!apa", "atum"]
 bypass_list = ['98809268219699200']
 Nazi_Member = ['98468200508833792']
 
