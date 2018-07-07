@@ -36,7 +36,9 @@ async def on_message(message):
     if message.author.id == '128962977456979968':
         await client.send_message(message.channel, "Aiii Xicoo <:Succ:464183613462937601>") 
     if message.author.id == '339055386067861504':
-        await client.send_message(message.channel, "<:PAPAFACE:464188803515416577>")     
+        await client.send_message(message.channel, "<:PAPAFACE:464188803515416577>")  
+    if message.content == '!ditador':
+        await client.send_message(message.channel, "<:NAZIFLAGARONY:464071592092368926> <:NAZIFLAGARONY:464071592092368926> <:NAZIFLAGARONY:464071592092368926>")
     contents = message.content.split(" ") #contents is a list type
     for word in contents:
         if word.upper() in chat_filter:
