@@ -32,7 +32,7 @@ async def on_message(message):
         await client.send_message(message.channel, "```glsl\n# TRIVIA TIMETABLE \n \nCash Show US - 01:00 - 02:30 \nCash Show AU - 12:00 \nCash Show UK - 20:30 \nCash Show DE - 11:00 - 20:00 \nCash Show FR - 11:30 - 19:30 \n\nHQ UK - 15:00 - 21:00 \nHQ US - 01:00 - 02:00```")
         await client.send_message(message.channel, "For more: https://triviatrckr.io/")
     if message.content == "!apa":
-        await client.send_message(message.channel, "Nice to see you again Apa! :PAPAFACE:")
+        await client.send_message(message.channel, "Nice to see you again Apa! <:PAPAFACE:464188803515416577>")
     if message.author.id == '128962977456979968':
         await client.send_message(message.channel, "Aiii Xicoo <:Succ:464183613462937601>") 
     if message.author.id == '339055386067861504':
